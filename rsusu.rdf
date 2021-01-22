@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:coba="http://www.cobanamespace/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.tubeslab/sw2/2/rsusu"/>
+     
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/RSUSU -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/"/>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/profil -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/"/>
+        <rdfs:label>Profil Rumah Sakit USU</rdfs:label>
+    </owl:Class>
+   
+   
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/visimisi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
+        <rdfs:label>Pesan dari Direktur</rdfs:label>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/pak_warli.jpg"/>
+        <coba:teks>RS USU sebagai Penyelenggara Pendidikan Dokter
+            Untuk dapat mengatasi masalah kesehatan secara sempurna, penguasaan ilmu pengetahuan dan teknologi kedokteran/kesehatan (IPTEKDOK) oleh sumber daya manusia (SDM) bidang kedokteran/kesehatan merupakan hal yang sangat esensi dikembangkan. Upaya ini akan berhasil bila didukung oleh pengembangan sarana dan prasarana, peningkatan kegiatan penelitian, pengkajian, penguasaan, pemanfaatan dan pengembangan IPTEKDOK. Tersedianya sarana dan prasarana berupa rumah sakit untuk pendidikan kedokteran/kesehatan merupakan persyaratan mutlak agar dapat menghasilkan lulusan yang berkualitas.
+            Penyelenggaraan pendidikan yang dilaksanakan FK USU selama ini, telah memanfaatkan Rumah Sakit Dr. Pirngadi Medan dan Rumah Sakit Haji Adam Malik Medan sebagai rumah sakit pendidikan. Pemanfaatan Rumah Sakit Dr. Pirngadi dan Rumah Sakit Haji Adam Malik Medan sebagai lahan pendidikan menunjukkan beberapa masalah/potensi masalah, yang cepat atau lambat akan dapat mempengaruhi kualitas penyelenggaraan pendidikan. Kapasitas daya tampung yang dimiliki saat ini sudah maksimal dan upaya untuk pengembangan daya tampung tak dapat lagi mengimbangi peningkatan peserta didik. Fasilitas, jumlah dan variasi kasus yang dimiliki semakin terasa kurang memadai untuk dapat memberikan pendidikan yang baik dan menghasilkan lulusan yang berkualitas.
+            Penyelenggaraan pelayanan kesehatan pada suatu rumah sakit yang didesain untuk kebutuhan pendidikan diyakini akan mengangkat dan meningkatkan mutu pelayanan. Hal ini disebabkan oleh karena sarana/prasarana yang dimiliki dan operasional kegiatan selalu diselaraskan dengan perkembangan iptek kedokteran/ kesehatan demi menjamin dihasilkannya lulusan yang berkualitas dan berdaya saing.
+            Atas dasar pemikiran dan untuk tujuan inilah telah dirasa perlu adanya suatu Rumah Sakit Pendidikan USU. Rumah Sakit USU akan dikembangkan secara bertahap untuk mencapai visi yang diharapkan. Dengan demikian keberadaan, cakupan dan manfaatnya akan dirasakan secara luas. Sarana ini haruslah merupakan komplemen yang akan saling mengisi dengan sarana rumah sakit pendidikan yang telah ada sehingga upaya pembangunan di bidang kesehatan/kedokteran yang merupakan bagian dari pembangunan masyarakat Indonesia dapat lebih cepat terwujud.
+        </coba:teks>
+        <coba:oleh>Dr. dr. Syah Mirsya Warli, Sp. U , Direktur Utama, Rumah Sakit Universitas Sumatera Utara</coba:oleh>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/profilnorganisasi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
+        <rdfs:label>Visi, Misi, dan Motto RS USU</rdfs:label>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/front.jpg"/>
+        <coba:visi>Visi Rumah Sakit USU adalah sebagai Pusat pengembangan IPTEKDOK 2025 di wilayah Indonesia Barat.</coba:visi>
+        <coba:misi>1. Meningkatkan mutu Dokter, Dokter Spesialis dan tenaga kesehatan serta mutu Pelayanan Kesehatan khususnya di Sumatera Bagian Utara.</coba:misi>
+        <coba:misi>2. Mengembangkan IPTEKDOK secara terpadu antara berbagai cabang ilmu kedokteran dan kesehatan maupun ilmu-ilmu lain yang menunjang</coba:misi>
+        <coba:motto>Rumah Sakit USU menggunakan motto : Kualitas, Aman dan Bersahabat (Quality, Safety and Friendly).</coba:motto>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/sejarah">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
+        <rdfs:label>Gagasan Rumah Sakit Universitas Sumatera Utara sejak 2003</rdfs:label>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/rs-usu.jpg"/>
+        <coba:teks>
+            Sejarah pendirian Rumah Sakit USU sebenarnya telah dimulai pada tahun 2003 dengan diajukannya Usulan proyek pembangunan Pusat Penelitian dan Diagnostik Kesehatan (PPDK) USU ke Bappenas yang kemudian direvisi menjadi usulan Pembangunan Rumah Sakit Pendidikan (RSP) USU.
+            Pada tahun 2004, diperoleh rekomendasi /dukungan Mendiknas kepada Bappenas untuk mendirikan RSP USU. Akhirnya Usulan Pembangunan RSP USU disetujui dan masuk dalam perencanaan Bappenas (Blue book, Code No : P- 04.11.1.03.0405.67).
+            Rekomendasi/Dukungan Menkes kepada Rektor USU untuk mendirikan RSP USU diperoleh pada tahun 2005. Pada tahun yang sama Islamic Development Bank (IDB) menawarkan Loan untuk membangun RSP USU. Terjadi proses negosiasi antara IDB dengan pemerintah tentang Loan pembiayaan RSP USU tersebut. IDB menyetujui pemberian Loan pembangunan RSP USU pada tanggal 1 Februari 2006.
+            Antara tahun 2007- 2009 berlangsung proses lelang pelaksanaan pembangunan RSP USU yang akhirnya menetapkan PT Waskita Karya sebagai pelaksana pembangunan RSP USU (19 Juli 2009).
+            Pembangunan RSP USU berlangsung antara tahun 2009 – 2011 dan sementara itu mulai pula disusun usulan rencana pengadaan alkes/non alkes dan usulan ketenagaan. Depdiknas mengalokasi sejumlah tenaga berstatus PNS untuk ditempatkan sebagai tenaga di RSP USU.
+            Antara tahun 2011 – 2013 berlangsung pengadaan alkes/non alkes RSP USU. Disamping itu mulai pula disusun rencana program dan anggaran operasional RSP USU. Dengan berbagai persiapan operasional tersebut, diharapkan RS USU dapat segera beroperasi secara penuh.
+            “Soft opening” RS USU dilaksanakan pada tanggal 4 Desember 2014 dan pembukaan operasional penuh baru dapat terlaksana pada tanggal 28 Maret 2016.
+        </coba:teks>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/pesan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
+        <rdfs:label>Profil dan Organisasi</rdfs:label>
+        <foaf:title>Profil</foaf:title>
+
+            <coba:judul>Data Rumah Sakit</coba:judul>
+            <coba:koders>1275913</coba:koders>
+            <coba:tdaftar>18 Pebruari 2016</coba:tdaftar>
+            <coba:namars>Rumah Sakit Universitas Sumatera Utara</coba:namars>
+            <coba:jenisrs>Rumah Sakit Umum</coba:jenisrs>
+            <coba:kelasrs>C</coba:kelasrs>
+            <coba:direkturrs>dr. Syah Mirsya Warli, SP.U</coba:direkturrs>
+            <coba:Penyelenggara>Kementerian Riset dan Teknologi dan Pendidikan Tinggi</coba:Penyelenggara>
+        
+            <coba:judul>Lokasi</coba:judul>
+            <coba:alamat>Jl. Dr. T Mansur No.66, Medan</coba:alamat>
+            <coba:kodepos>20154</coba:kodepos>
+            <coba:telp>061-8218928</coba:telp>
+            <coba:fax>061-8218928</coba:fax>
+            <coba:email rdf:resource="rs.usu@usu.ac.id"/>
+            <coba:telphum>061-8218928</coba:telphum>
+            <coba:web rdf:resource="rumahsakit.usu.ac.id"/>
+        
+            <coba:judul>Profil Rumah Sakit</coba:judul>
+            <coba:ltanah>38.000m2</coba:ltanah>
+            <coba:lbangunan>52.200m2 (5 Lantai)</coba:lbangunan>
+            <coba:sizin>Dinas Kesehatan Kota Medan</coba:sizin>
+            <coba:tsizin>19 Oktober 2015</coba:tsizin>
+            <coba:masab>5 Tahun</coba:masab>
+       
+        <foaf:title>Departemen Pelayanan Medis</foaf:title>
+        <coba:dep>Departemen Gigi Mulut</coba:dep>
+        <coba:dep>Departemen Ilmu Penyakit Dalam</coba:dep>
+        <coba:dep>Departemen Ilmu Kesehatan Anak</coba:dep>
+        <coba:dep>Departemen Bedah</coba:dep>
+        <coba:dep>Departemen Obstetri dan Ginekologi</coba:dep>
+        <coba:dep>Departemen Neurologi</coba:dep>
+        <coba:dep>Departemen Pulmonologi</coba:dep>
+        <coba:dep>Departemen Kardiologi</coba:dep>
+        <coba:dep>Departemen Optalmologi</coba:dep>
+        <coba:dep>Departemen THT-KL</coba:dep>
+        <coba:dep>Departemen Dermatologi</coba:dep>
+        <coba:dep>Departemen Psikiatri</coba:dep>
+        <coba:dep>Departemen Anestesiologi</coba:dep>
+        <coba:dep>Departemen Bedah Syaraf</coba:dep>
+        <coba:dep>Departemen Bedah Plastik</coba:dep>
+        <coba:dep>Departemen Bedah Ortopedi</coba:dep>
+        <coba:dep>Departemen Urologi</coba:dep>
+        <coba:dep>Departemen Radiologi</coba:dep>
+        <coba:dep>Departemen Patologi Klinis</coba:dep>
+        <coba:dep>Departemen Gizi Klinis</coba:dep>
+        <coba:dep>Departemen Psikologi Klinis</coba:dep>
+        <coba:dep>Departemen Kedokteran Kehakiman</coba:dep>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/panduanggedung">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
+        <rdfs:label>Panduan Gedung</rdfs:label>
+        <foaf:title>Lantai 1</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/floor1.gif"/>
+        <foaf:title>Lantai 2</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/floor2.gif"/>
+        <foaf:title>Lantai 3</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/floor3.gif"/>
+        <foaf:title>Lantai 4</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/floor4.gif"/>
+        <foaf:title>Lantai 5</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/floor5.gif"/>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/departemen -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/anestesiologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi/anestesi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi"/>
+    </owl:Class>
+   
+
+   
+    <!-- http://www.tubeslab/sw2/2/rsusu/bedah -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+   
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahortopedi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+    </owl:Class>
+   
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahplastik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahsaraf">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahumum">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahurologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/dermatologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/dermatologi/dermato">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi"/>
+    </owl:Class>
+    
+    
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/gigimulut -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut/gigidanmulut">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut"/>
+    </owl:Class>
+   
+   
+   
+    <!-- http://www.tubeslab/sw2/2/rsusu/instasimedik -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/farmasi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>Instalasi Farmasi-CSSD</rdfs:label>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/urip.jpg"/>
+        <coba:teks>Instalasi Farmasi RS USU
+            Instalasi farmasi rumah sakit merupakan tempat penyelenggaraan semua kegiatan kefarmasian yang ditujukan untuk keperluan rumah sakit. Instalasi farmasi RS USU dipimpin oleh seorang Apoteker dan dibantu oleh Apoteker Pendamping, Tenaga Teknis Kefarmasian dan Administrasi yang memenuhi persyatan perundang-undangan yang berlaku,  kompeten dan professional. Beberapa layanan kefarmasian yang terdapat pada instalasi farmasi RS USU diantaranya adalah sebagai berikut:
+        </coba:teks>
+        <coba:poin>Melayani resep pasien rawat jalan dan rawat inap selama 24 jam</coba:poin>
+        <coba:poin>Harga obat dan bahan medis habis pakai yang terjangkau</coba:poin>
+        <coba:poin>melakukan kegiatan farmasi klinis</coba:poin>
+        <coba:poin>memberikan pelayanan informasi obat</coba:poin>
+        <coba:poin>memberikan pelayanan konseling obat kepada pasien</coba:poin>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/gizi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/hemodialisis">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>Hermodialisis</rdfs:label>
+        <foaf:title>Pelayanan Medis</foaf:title>
+        <foaf:img rds:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
+        <coba:teks>
+            Hemodialisa adalah salah satu terapi pengganti ginjal yang menggunakan alat khusus dengan tujuan untuk mengeluarkan toksin uremik dan mengatur cairan, elektrolit tubuh.
+            Saat ini RS USU membuka pelayanan hemodialisa yang akan menjadi program unggulan dengan segala fasilitas dan pelayanan yang berkualitas. Prof.dr. Harun Rasyid Lubis,Sp.PD, KGH sebagai Supervisor Unit Hemodialisa RS USU akan semakin menunjang kualitas pelayanan Unit Hemodialisa RS USU. Selain itu, Pasien hemodialisa langsung ditangani oleh dokter/perawat mahir bersertifikat dan bersahabat.
+            Unit Hemodialisa berada di lantai 4 gedung RS USU dengan suasana ruangan yang nyaman dan pemandangan luar yang indah yang langsung bisa dinikmati dari dinding kaca ruangan.
+        </coba:teks>
+        <foaf:title>Fasilitas</foaf:title>
+        <coba:teks>Unit Hemodialisa RS USU melayani pasien BPJS dan Umum. Adapun fasilitas-fasilitas yang tersedia adalah sebagai berikut:</coba:teks>
+        <coba:poin>1. Cuci darah (Hemodialisa)</coba:poin>
+        <coba:poin>2. Pemasangan Double Lumen dan Cimino</coba:poin>
+        <coba:poin>3. Pemeriksaan laboratorium dan adekuasi dialisis setiap bulan</coba:poin>
+        <coba:poin>4. Pemeriksaan elektrolit darah setiap 3 bulan</coba:poin>
+        <coba:poin>5. Pemeriksaan EKG, foto thorax, Albumin dan virral marker setiap 6 bulan</coba:poin>
+        <coba:poin>6. Obat-obatan (eritropoitin α/β dan prolanis)</coba:poin>
+        <coba:poin>7. Ruang Hemodialisa dan ruang tunggu yang nyaman (full AC, TV, wifi, full music)</coba:poin>
+        <coba:poin>8. Snack Pagi dan Makan Siang</coba:poin>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/igd">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/jenazah">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/kamarpersalinan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/laborklinik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/maternitas">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/raiologipencitraan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatinap">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatintensif">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatjalan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rehab">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>Unit Rehabilitasi Medik</rdfs:label>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/tari.png"/>
+        <foaf:title>Pelayanan Medis</foaf:title>
+        <coba:teks>
+            Rehabilitasi Medik Rumah Sakit USU memberikan pelayanan kesehatan yang meliputi upaya pelayanan promotif, preventif, kuratif dan rehabilitatif, yang melayani pasien dari semua lapisan usia (bayi hingga lansia), mencakup kegiatan layanan kesehatan secara utuh dan terpadu melalui pendekatan medis, psikososial, edukasional dan vokasional dengan fokus mempertahankan dan meningkatkan kemampuan yang ada seoptimal mungkin sehingga mandiri dalam melakukan aktifitas fungsional sehari-hari dan mempunyai kualitas hidup yang baik.
+        </coba:teks>
+        <foaf:title>Motto</foaf:title>
+        <coba:motto>To add life to years, not years to live.</coba:motto>
+        <foaf:title>Pelayanan Rehabilitasi Medik</foaf:title>
+        <coba:teks>Pelayanan Rehabilitasi Medik Rumah Sakit USU merupakan suatu pelayanan tim interdisipliner yang terdiri dari:</coba:teks>
+        <coba:poin>1. Dokter Spesialis Kedokteran Fisik dan Rehabilitasi</coba:poin>
+        <coba:poin>2. Fisioterapis</coba:poin>
+        <coba:poin>3. Terapis Wicara</coba:poin>
+        <coba:poin>4. Terapis Okupasi</coba:poin>
+        <coba:poin>5. Ortotis-prostetis</coba:poin>
+        <coba:poin>6. Perawat Rehab</coba:poin>
+        <coba:poin>7. Psikolog</coba:poin>
+        <coba:poin>8. Pekerja sosial medis</coba:poin>
+        <coba:poin>9. Rohaniawan</coba:poin>
+        <foaf:title>Kondisi yang dapat ditangani</foaf:title>
+        <coba:poin>1. Traksi mekanik Lumbal dan Cervikal</coba:poin>
+        <coba:poin>2. Nebulizer / terapi inhalasi</coba:poin>
+        <coba:poin>3. Electrical Stimulation (ES/TENS)</coba:poin>
+        <coba:poin>4. Monark ergocycle</coba:poin>
+        <coba:poin>5. Treadmill</coba:poin>
+        <coba:poin>6. Paralel bar</coba:poin>
+        <coba:poin>7. Tilting Bed</coba:poin>
+        <coba:poin>8. Hydrotherapy (Kolam Pusaran Air)</coba:poin>
+        <coba:poin>9. Short Wave Diathermy (SWD)</coba:poin>
+        <coba:poin>10. Parafin bath</coba:poin>
+        <coba:poin>11. Thera Ball</coba:poin>
+        <coba:poin>12. Wall Bar</coba:poin>
+        <coba:poin>13. Latihan-latihan</coba:poin>
+        <foaf:title>Peralatan Penunjang</foaf:title>
+        <coba:poin>1. Transcutaneal Electrical Nerve Stimulation</coba:poin>
+        <coba:poin>2. Neuromuscular Electrical Stimulation</coba:poin>
+        <coba:poin>3. Coldpack</coba:poin>
+        <coba:poin>4. Paraffin Bath</coba:poin>
+        <coba:poin>5. Infrared Radioation</coba:poin>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rekammedik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    </owl:Class>
+    
+    
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/iilmukesehatananak -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak/kesehatananak">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak"/>
+    </owl:Class>
+    
+    
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/kardiologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi/kardio">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi"/>
+    </owl:Class>
+    
+
+    
+    <!-- http://www.tubeslab/sw2/2/rsusu/kehakiman -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman/kedokterannkehakiman">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman"/>
+    </owl:Class>
+    
+    
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/neurologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi/neurologii">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi"/>
+    </owl:Class>
+    
+    
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/obstetringinekologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi/obstertidanginekologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/optalmologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+  
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi/optal">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi"/>
+    </owl:Class>
+    
+
+ 
+    <!-- http://www.tubeslab/sw2/2/rsusu/patologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/parastologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologianatomy">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologiklinik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/mikrobiologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/ilmupenyakitdalam -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam/penyakitdalam">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam"/>
+    </owl:Class>
+    
+
+    
+    <!-- http://www.tubeslab/sw2/2/rsusu/psikiatri -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri/psikia">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/pulmonologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>  
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi/pulmo">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubeslab/sw2/2/rsusu/radiologi -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/departemen"/>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi/radio">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi"/>
+    </owl:Class>
+    
+   
+   
+    <!-- http://www.tubeslab/sw2/2/rsusu/thtkl -->
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl/tht-kl">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl"/>
+    </owl:Class>
+    
+   
+</rdf:RDF>
