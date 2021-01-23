@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF 
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:coba="http://www.cobanamespace/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:coba="http://www.cobanamespace/"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
     <owl:Ontology rdf:about="http://www.tubeslab/sw2/2/rsusu"/>
-     
-
-
+    
     <!-- http://www.tubeslab/sw2/2/rsusu/RSUSU -->
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/"/>
@@ -21,8 +20,8 @@
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/"/>
         <rdfs:label>Profil Rumah Sakit USU</rdfs:label>
     </owl:Class>
-   
-   
+
+
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/profil/visimisi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/profil"/>
         <rdfs:label>Pesan dari Direktur</rdfs:label>
@@ -90,7 +89,7 @@
             <coba:sizin>Dinas Kesehatan Kota Medan</coba:sizin>
             <coba:tsizin>19 Oktober 2015</coba:tsizin>
             <coba:masab>5 Tahun</coba:masab>
-       
+
         <coba:title>Departemen Pelayanan Medis</coba:title>
         <coba:dep>Departemen Gigi Mulut</coba:dep>
         <coba:dep>Departemen Ilmu Penyakit Dalam</coba:dep>
@@ -155,21 +154,21 @@
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi"/>
         <rdfs:label>Anestesiologi</rdfs:label>
     </owl:Class>
-   
 
-   
+
+
     <!-- http://www.tubeslab/sw2/2/rsusu/bedah -->
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
         <rdfs:label>Bedah</rdfs:label>
     </owl:Class>
-   
+
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahortopedi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label>Bedah atau Topedi</rdfs:label>
+        <rdfs:label>Bedah Ortopedi</rdfs:label>
     </owl:Class>
-   
+
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahplastik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
         <rdfs:label>Bedah Plastik</rdfs:label>
@@ -220,14 +219,15 @@
    
    
    
-    <!-- http://www.tubeslab/sw2/2/rsusu/instasimedik -->
+    <!-- http://www.tubeslab/sw2/2/rsusu/instalasimedik -->
 
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik">
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>Instalasi Medik</rdfs:label>
     </owl:Class>
 
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/farmasi">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/farmasi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Farmasi-CSSD</rdfs:label>
         <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/urip.jpg"/>
         <coba:teks>Instalasi Farmasi RS USU
@@ -240,12 +240,13 @@
         <coba:poin>memberikan pelayanan konseling obat kepada pasien</coba:poin>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/gizi">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/instalasigizi">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
+        <rdfs:label>Instalasi Gizi</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/hemodialisis">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/hemodialisis">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Hemodialisis</rdfs:label>
         <coba:title>Pelayanan Medis</coba:title>
         <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
@@ -266,9 +267,9 @@
         <coba:poin>8. Snack Pagi dan Makan Siang</coba:poin>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/igd">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
-        <rdfs:label>Instasi Gawat Darurat</rdfs:label>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/igd">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
+        <rdfs:label>Instansi Gawat Darurat</rdfs:label>
         <coba:title>Pelayanan Medis</coba:title>
         <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
         <coba:teks>
@@ -287,48 +288,48 @@
         <coba:teks>EKG Monitor, Defibrilator, Respirator, Nebulizer dan Suction, Peralatan Bedah Minor, Syringe Pump, Inkubator Mobile, dan sarana penunjang lain yang siap pakai.</coba:teks>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/jenazah">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/jenazah">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Pemulasaran Jenazah</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/kamarpersalinan">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/kamarpersalinan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Kamar Persalinan</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/laborklinik">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/laborklinik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Laboratorium Klinik</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/maternitas">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/maternitas">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Maternitas</rdfs:label>
     </owl:Class>
 
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/raiologipencitraan">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/raiologipencitraan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Radiologi-Pencitraan</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatinap">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/rawatinap">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Rawat Inap</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatintensif">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/rawatintensif">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Rawat Intensif</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatjalan">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/rawatjalan">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Instalasi Rawat Jalan</rdfs:label>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rehab">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/rehab">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Unit Rehabilitasi Medik</rdfs:label>
         <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/profil/tari.png"/>
         <coba:title>Pelayanan Medis</coba:title>
@@ -370,22 +371,22 @@
         <coba:poin>5. Infrared Radioation</coba:poin>
     </owl:Class>
     
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rekammedik">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik/rekammedik">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instalasimedik"/>
         <rdfs:label>Rekam Medik</rdfs:label>
     </owl:Class>
     
     
 
-    <!-- http://www.tubeslab/sw2/2/rsusu/iilmukesehatananak -->
+    <!-- http://www.tubeslab/sw2/2/rsusu/ilmukesehatananak -->
 
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak">
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmukesehatananak">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
         <rdfs:label>Ilmu Kesehatan Anak</rdfs:label>
     </owl:Class>
 
-    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak/kesehatananak">
-        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak"/>
+    <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmukesehatananak/kesehatananak">
+        <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/ilmukesehatananak"/>
         <rdfs:label>Kesehatan Anak</rdfs:label>
     </owl:Class>
     
@@ -475,7 +476,7 @@
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologianatomy">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
-        <rdfs:label>Patologi anatomy</rdfs:label>
+        <rdfs:label>Patologi Anatomy</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologiklinik">
