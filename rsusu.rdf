@@ -139,6 +139,7 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/"/>
+        <rdfs:label>informasi departemen</rdfs:label>
     </owl:Class>
 
 
@@ -147,10 +148,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>anestesiologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi/anestesi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
    
 
@@ -159,26 +162,32 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
    
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahortopedi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
    
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahplastik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahsaraf">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahumum">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahurologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
 
@@ -187,10 +196,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/dermatologi/dermato">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
     
@@ -199,10 +210,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut/gigidanmulut">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
    
    
@@ -235,7 +248,7 @@
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
         <rdfs:label>Hermodialisis</rdfs:label>
         <foaf:title>Pelayanan Medis</foaf:title>
-        <foaf:img rds:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
         <coba:teks>
             Hemodialisa adalah salah satu terapi pengganti ginjal yang menggunakan alat khusus dengan tujuan untuk mengeluarkan toksin uremik dan mengatur cairan, elektrolit tubuh.
             Saat ini RS USU membuka pelayanan hemodialisa yang akan menjadi program unggulan dengan segala fasilitas dan pelayanan yang berkualitas. Prof.dr. Harun Rasyid Lubis,Sp.PD, KGH sebagai Supervisor Unit Hemodialisa RS USU akan semakin menunjang kualitas pelayanan Unit Hemodialisa RS USU. Selain itu, Pasien hemodialisa langsung ditangani oleh dokter/perawat mahir bersertifikat dan bersahabat.
@@ -255,38 +268,63 @@
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/igd">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi gawat darurat</rdfs:label>
+        <foaf:title>Pelayanan Medis</foaf:title>
+        <foaf:img rdf:resource="http://rumahsakit.usu.ac.id/images/sampledata/no-pic.png"/>
+        <coba:teks>
+            Keadaan gawat darurat dapat terjadi pada siapa saja, kapan saja dan dimana saja yang harus segera mendapatkan pertolongan secara cepat dan tepat agar resiko kecacatan dan kematian dapat dicegah (to save life and limb). IGD RS USU siap memberikan pelayanan pasien gawat darurat dengan ancaman kematian dan perlu pertolongan segera (emergency patient) dan pelayanan pasien tidak gawat darurat yang datang ke IGD 24 Jam terus-menerus.
+        </coba:teks>
+        <foaf:title>Fasilitas</foaf:title>
+        <coba:poin>1. Ruang triase dan periksa pasien dengan dokter dan perawat tersertifikasi</coba:poin>
+        <coba:poin>2. Ruang resusitasi, dengan peralatan obat-obatan resusitasi jantung paru lengkap</coba:poin>
+        <coba:poin>3. Ruang perawatan sementara</coba:poin>
+        <coba:poin>4. Kamar tindakan</coba:poin>
+        <coba:poin>5. Kamar bersalin</coba:poin>
+        <coba:poin>6. Radiologi</coba:poin>
+        <coba:poin>7. Farmasi / Apotik</coba:poin>
+        <coba:poin>8. Ambulance</coba:poin>
+        <foaf:title>Peralatan Penunjang</foaf:title>
+        <coba:teks>EKG Monitor, Defibrilator, Respirator, Nebulizer dan Suction, Peralatan Bedah Minor, Syringe Pump, Inkubator Mobile, dan sarana penunjang lain yang siap pakai.</coba:teks>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/jenazah">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>pemulasaran jenazah</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/kamarpersalinan">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>kamar persalinan</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/laborklinik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi laboratorium klinik</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/maternitas">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>maternitas</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/raiologipencitraan">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi raiologi-pencitraan</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatinap">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi rawat inap</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatintensif">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi rawat intensif</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rawatjalan">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>instasi rawat jalan</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rehab">
@@ -334,6 +372,7 @@
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik/rekammedik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/instasimedik"/>
+        <rdfs:label>rekammedik</rdfs:label>
     </owl:Class>
     
     
@@ -342,10 +381,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>iilmukesehatananak</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak/kesehatananak">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/iilmukesehatananak"/>
+        <rdfs:label>iilmukesehatananak</rdfs:label>
     </owl:Class>
     
     
@@ -354,10 +395,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>kardiologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi/kardio">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/kardiologi"/>
+        <rdfs:label>kardiologi</rdfs:label>
     </owl:Class>
     
 
@@ -366,10 +409,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>kedokteran dan kehakiman</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman/kedokterannkehakiman">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/kehakiman"/>
+        <rdfs:label>kedokteran dan kehakiman</rdfs:label>
     </owl:Class>
     
     
@@ -378,10 +423,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>neurologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi/neurologii">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/neurologi"/>
+        <rdfs:label>neurologi</rdfs:label>
     </owl:Class>
     
     
@@ -390,10 +437,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>obsterti dan ginekologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi/obstertidanginekologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/obstetringinekologi"/>
+        <rdfs:label>obsterti dan ginekologi</rdfs:label>
     </owl:Class>
     
 
@@ -402,10 +451,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>optalmologi</rdfs:label>
     </owl:Class>
   
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi/optal">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/optalmologi"/>
+        <rdfs:label>optalmologi</rdfs:label>
     </owl:Class>
     
 
@@ -414,22 +465,27 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>patologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/parastologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+        <rdfs:label>parastologi</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologianatomy">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+        <rdfs:label>patologianatomy</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/patologiklinik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+        <rdfs:label>patologiklinik</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/patologi/mikrobiologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/patologi"/>
+        <rdfs:label>mikrobiologi</rdfs:label>
     </owl:Class>
     
 
@@ -438,10 +494,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>ilmupenyakitdalam</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam/penyakitdalam">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/ilmupenyakitdalam"/>
+        <rdfs:label>ilmupenyakitdalam</rdfs:label>
     </owl:Class>
     
 
@@ -450,10 +508,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>psikiatri</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri/psikia">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/psikiatri"/>
+        <rdfs:label>psikiatri</rdfs:label>
     </owl:Class>
     
 
@@ -462,10 +522,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>pulmonologi</rdfs:label>
     </owl:Class>  
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi/pulmo">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/pulmonologi"/>
+        <rdfs:label>pulmonologi</rdfs:label>
     </owl:Class>
     
 
@@ -474,10 +536,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/departemen"/>
+        <rdfs:label>radiologi</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi/radio">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/radiologi"/>
+        <rdfs:label>radiologi</rdfs:label>
     </owl:Class>
     
    
@@ -486,10 +550,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
+        <rdfs:label>tht-kl</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl/tht-kl">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/thtkl"/>
+        <rdfs:label>tht-kl</rdfs:label>
     </owl:Class>
     
    
