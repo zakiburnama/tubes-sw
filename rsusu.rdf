@@ -162,32 +162,32 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah</rdfs:label>
     </owl:Class>
    
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahortopedi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah atau topedi</rdfs:label>
     </owl:Class>
    
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahplastik">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah plastik</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahsaraf">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah saraf</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahumum">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah umum</rdfs:label>
     </owl:Class>
     
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/bedah/bedahurologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/bedah"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>bedah urologi</rdfs:label>
     </owl:Class>
     
 
@@ -196,12 +196,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>dermatologi</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/dermatologi/dermato">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/dermatologi"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>dermatologi</rdfs:label>
     </owl:Class>
     
     
@@ -210,12 +210,12 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>gigi dan mulut</rdfs:label>
     </owl:Class>
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut/gigidanmulut">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/gigimulut"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>gigi dan mulut</rdfs:label>
     </owl:Class>
    
    
