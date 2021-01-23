@@ -153,7 +153,7 @@
 
     <owl:Class rdf:about="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi/anestesi">
         <rdfs:subClassOf rdf:resource="http://www.tubeslab/sw2/2/rsusu/departemen/anestesiologi"/>
-        <rdfs:label></rdfs:label>
+        <rdfs:label>anestesiologi</rdfs:label>
     </owl:Class>
    
 
